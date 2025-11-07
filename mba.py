@@ -83,7 +83,7 @@ if 'admission' in data.columns:
 # --- Tampilan hasil ---
 print("\nPreview data setelah pemrosesan:")
 # Tampilkan kolom yang relevan dengan data MBA.csv
-display(data.head())
+# display(data.head()) # Commented out as requested
 
 print("\nInfo kolom setelah pemrosesan:")
 print(data.info())
@@ -320,16 +320,3 @@ except ImportError:
 *   Consider providing alternative download methods or instructions for users not working within a Google Colab environment.
 
 """
-
-!git init
-
-!echo "# mba_prediksi" >> README.md
-
-!git add README.md
-
-!git commit -m "first commit"
-
-!git config --global user.email "dinda.h33@gmail.com"
-!git config --global user.name "dindahanifa"
-
-!git push -u origin master
